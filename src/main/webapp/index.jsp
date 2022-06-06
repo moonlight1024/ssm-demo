@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>主页面/登录页面</title>
+    <title>hyfhxp@163.com</title>
     <%
         pageContext.setAttribute("APP_PATH", request.getContextPath());
     %>

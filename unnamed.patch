@@ -1,0 +1,38 @@
+Index: src/main/webapp/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/webapp/index.jsp	(revision 6cfb79fa56bbbe9f27a913c946a7cbc389f64180)
++++ src/main/webapp/index.jsp	(date 1654094730013)
+@@ -9,7 +9,7 @@
+ <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+ <html>
+ <head>
+-    <title>主页面/登录页面</title>
++    <title>hyfhxp@163.com</title>
+     <%
+         pageContext.setAttribute("APP_PATH", request.getContextPath());
+     %>
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 6cfb79fa56bbbe9f27a913c946a7cbc389f64180)
++++ README.md	(date 1654094605125)
+@@ -5,9 +5,12 @@
+ 
+ #### 软件架构
+ 软件架构说明
++spring+springmvc+mybatis
++使用了mybatis的分页插件制作分页功能，前端采用bootstrap进行简单布局。ajax请求的方式，实现刷新效果。
++校验前端使用正则表达式，后端校验，简单使用了JSR303
++数据库使用的是c3p0数据库连接池..
+ 
+-
+-#### 安装教程
++#### 运行效果
+ 
+ 1.  xxxx
+ 2.  xxxx
